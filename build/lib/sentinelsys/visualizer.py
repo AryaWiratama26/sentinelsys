@@ -11,10 +11,12 @@ class VisualizerRun:
         self.timestamps = []
         
     def update_data(self):
+        """Update all of data"""
         self.cpu_data.append(psutil.cpu_percent(interval=0.5))
         self.ram_data.append(psutil.virtual_memory().percent)
         self.disk_data.append(psutil.disk_usage('/').percent)
         self.timestamps.append(time.time())
+        
         
         if len(self.cpu_data) > 50:
             self.cpu_data.pop(0)

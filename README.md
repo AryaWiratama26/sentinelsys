@@ -6,6 +6,12 @@ Sentinelsys is a Simple System Resource Monitor with Real-time Visualization
 ## Installation
 
 ```bash
+pip install sentinelsys
+```
+
+Or
+
+```bash
 pip install git+https://github.com/AryaWiratama26/sentinelsys.git
 ```
 
@@ -26,3 +32,4 @@ visulisasi.plot_graph()
 #### Author
 - Name : Arya Wiratama <br>
 - Email : <a href="mailto:aryawiratama2401@gmail.com">aryawiratama2401@gmail.com</a>
+- Pypi : https://pypi.org/project/sentinelsys/1.0/
