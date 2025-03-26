@@ -9,12 +9,6 @@ Sentinelsys is a Simple System Resource Monitor with Real-time Visualization
 pip install sentinelsys
 ```
 
-Or
-
-```bash
-pip install git+https://github.com/AryaWiratama26/sentinelsys.git
-```
-
 ## Example
 ```python
 from sentinelsys.monitor import Monitoring

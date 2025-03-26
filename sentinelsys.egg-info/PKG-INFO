@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: sentinelsys
-Version: 1.1
+Version: 1.2
 Summary: Simple System Resource Monitor with Real-time Visualization
 Home-page: UNKNOWN
 Author: Arya Wiratama
@@ -20,12 +20,6 @@ Sentinelsys is a Simple System Resource Monitor with Real-time Visualization
 
 ```bash
 pip install sentinelsys
-```
-
-Or
-
-```bash
-pip install git+https://github.com/AryaWiratama26/sentinelsys.git
 ```
 
 ## Example
