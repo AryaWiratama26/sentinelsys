@@ -1,5 +1,5 @@
-from sentinelsys.monitor import Monitoring
-from sentinelsys.visualizer import VisualizerRun
+from sentinelsys import Monitoring
+from sentinelsys import VisualizerRun
 
 monitor = Monitoring()
 print(f"CPU Usage {monitor.get_cpu_usage()}")
