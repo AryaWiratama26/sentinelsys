@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: sentinelsys
-Version: 1.2
+Version: 1.4
 Summary: Simple System Resource Monitor with Real-time Visualization
 Home-page: UNKNOWN
 Author: Arya Wiratama
@@ -24,8 +24,8 @@ pip install sentinelsys
 
 ## Example
 ```python
-from sentinelsys.monitor import Monitoring
-from sentinelsys.visualizer import VisualizerRun
+from sentinelsys import Monitoring
+from sentinelsys import VisualizerRun
 
 monitor = Monitoring()
 print(f"CPU Usage {monitor.get_cpu_usage()}")
@@ -39,5 +39,5 @@ visulisasi.plot_graph()
 #### Author
 - Name : Arya Wiratama <br>
 - Email : <a href="mailto:aryawiratama2401@gmail.com">aryawiratama2401@gmail.com</a>
-- Pypi : https://pypi.org/project/sentinelsys/1.0/
+- Pypi : https://pypi.org/project/sentinelsys/
 
